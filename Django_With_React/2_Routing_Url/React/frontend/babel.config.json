@@ -1,0 +1,14 @@
+{
+    "presets": [
+      [
+        "@babel/preset-env",
+        {
+          "targets": {
+            "node": "20"  // Make sure this is the same as your node version
+          }
+        }
+      ],
+      "@babel/preset-react"
+    ],
+    "plugins": ["@babel/plugin-proposal-class-properties"]
+  }
