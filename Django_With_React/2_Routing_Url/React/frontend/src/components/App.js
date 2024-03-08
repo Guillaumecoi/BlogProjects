@@ -1,9 +1,12 @@
 import React from "react";
 import { createRoot } from 'react-dom/client';
+import RoutesComponent from './RoutesComponent';
 
 const App = () => {
 	return (
-	  <h2> Hello World </h2>
+		<div>
+			<RoutesComponent />
+		</div>
 	);
 };
 
