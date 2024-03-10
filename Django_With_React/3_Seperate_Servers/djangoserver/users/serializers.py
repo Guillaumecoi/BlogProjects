@@ -6,16 +6,10 @@ UserModel = get_user_model()
 class UserRegisterSerializer(serializers.ModelSerializer):
     email = serializers.EmailField()
     password = serializers.CharField(write_only=True)
-    password2 = serializers.CharField(write_only=True) # For confirmation
 
     class Meta:
         model = UserModel
-        fields = ["email", "password", "password2"] 
-
-    def validate(self, data):  # Additional validation
-        if data['password'] != data['password2']:
-            raise serializers.ValidationError("Passwords must match.")
-        return data
+        fields = ["email", "password"] 
     
     def create(self, validated_data):
         if 'email' not in validated_data:
@@ -27,7 +21,7 @@ class UserRegisterSerializer(serializers.ModelSerializer):
 
 class UserLoginSerializer(serializers.Serializer):
     email = serializers.EmailField()
-    password = serializers.CharField()
+    password = serializers.CharField(write_only=True)
 
     def validate(self, data):
         user = authenticate(username=data['email'], password=data['password'])
