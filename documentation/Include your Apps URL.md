@@ -19,6 +19,6 @@ urlpatterns = [
 ]
 ```
 
-### Additional options
+### Good Practices
 ---
-- [[Namespaces]]
+- [Namespaces](Namespaces.md): If you have multiple apps with similar URL patterns, you can differentiate them with namespaces.

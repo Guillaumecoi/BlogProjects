@@ -29,6 +29,6 @@ INSTALLED_APPS = [
  ]
 ```
 
-### Additional options
+### Good Practices
 ---
-- [Include your Apps URL](Include%20your%20Apps%20URL.md)
+- [Include your Apps URL](Include%20your%20Apps%20URL.md): Organize your project by creating separate `urls.py` files for each app.
