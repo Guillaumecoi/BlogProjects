@@ -5,8 +5,8 @@
 ### Project Setup
 
 - Create a new project directory. 
-- [[Create a React Project|Create your React frontend]]. 
-- [[Setting up Django|Create your Django project]] in the same folder.
+- [Create your React frontend](Create%20a%20React%20Project.md)
+- [Create your Django project](Setting%20up%20Django.md) in the same folder.
 
 ### Running the servers
 - Run `npm start` in the react folder.

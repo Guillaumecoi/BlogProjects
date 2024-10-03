@@ -1,7 +1,7 @@
 # Create a Django Project
 ---
 ### Create the project
-- Create a [[Virtual Environment Python|virtual environment]] (optional but recommended) 
+- Create a [virtual environment](Virtual%20Environment%20Python.md) (optional but recommended)
 - Install Django: `pip install Django`
 - Create the project: `django-admin startproject <project_name>`
 
@@ -31,4 +31,4 @@ INSTALLED_APPS = [
 
 ### Additional options
 ---
- - [[Include your Apps URL]]
+- [Include your Apps URL](Include%20your%20Apps%20URL.md)

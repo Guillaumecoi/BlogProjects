@@ -15,7 +15,7 @@ The combination of Django and React is a powerful tool for web development. Djan
 ### React within Django
 Firstly, I've [set up React within my Django project](documentation/Setting%20up%20React%20within%20Django.md). What I like about this setup is its live update feature. When `npm run dev` is active, saving a React file triggers an automatic update to `main.js`, which in turn, updates the Django server as long as it's running. Another advantage is the integration convenience: if `main.js` is set correctly and you're not modifying React files, you can manage the project just like any other Django project. 
 #### Managing URL Routing
-I've implemented a basic [routing system to render multiple pages](documentation/%20URL's.md). The current setup requires setting the path in two places. Which could become tedious with a large number of URLs. Here are a few initial solutions I considered:
+I've implemented a basic [routing system to render multiple pages](documentation/Routing%20URL's.md). The current setup requires setting the path in two places. Which could become tedious with a large number of URLs. Here are a few initial solutions I considered:
 
 - **Decoupling Frontend and Backend:** [SeparatingReact and Django into distinct servers](#react-and-django-as-separate-servers).
 - **Automation:** A script to synchronize URL definitions.

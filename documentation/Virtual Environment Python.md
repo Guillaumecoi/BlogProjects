@@ -36,16 +36,16 @@ Make sure your `<environement_name>` is in here
 
 ### **Managing Requirements**
 - **Install Packages:** Use `pip` to install any packages you need
-	```shell
+```shell
 pip install <package_name>
 ```
 
 - **List all installed packages:** This way you can upload this list as `requirements.txt` to the git which is way less overhead than uploading the virtual environment entirely. 
-  ``` shell
+``` shell
 pip freeze > requirements.txt
 ```
 
 - **Install packages from `requirements.txt`**
-  ``` shell
+``` shell
 pip install -r requirements.txt
 ```

@@ -1,12 +1,12 @@
 # Routing URL's
 
-After [[Setting up React within Django|setting up React in Django]] , let's enable navigation to multiple pages. We'll create "home", "blog", and "contact" pages and set up routes to them.
+After [Setting up React within Django](setting%20up%20React%20in%20Django.md) , let's enable navigation to multiple pages. We'll create "home", "blog", and "contact" pages and set up routes to them.
 
 **Code:** All code can be found in the map: `2_Routing_Url/`.
 
 ## Setup your Routing
 ---
-Follow the steps [[Routing URL's React|here]] to setup the routing within React.
+Follow the steps [here](Routing%20URL's%20React.md) to setup the routing within React.
 
 ### Include the new paths in Django
 ---

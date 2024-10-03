@@ -6,7 +6,7 @@
 ---
 Before beginning, ensure you have:
 
-- [[Setting up Django|An existing Django project]]
+- [Setting up Django](Setting%20up%20Django.md)
 - Node.js and npm installed on your system
 
 ## Initializing the setup
